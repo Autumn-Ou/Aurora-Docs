@@ -1,0 +1,17 @@
+{
+  "index": "Introduction",
+  "installation": "Installation",
+  "getting_started": "Getting Started",
+  "animation": "Animation Standard",
+  "can": "CAN",
+  "about": {
+    "title": "About",
+    "type": "page"
+  },
+  "contact": {
+    "title": "Contact ↗",
+    "type": "page",
+    "href": "https://github.com/JeMoRobo",
+    "newWindow": true
+  }
+}
