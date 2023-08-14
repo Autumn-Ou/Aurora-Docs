@@ -1,0 +1,18 @@
+Causes the device to physically identify itself for a given amount of time.
+
+| Property | Value |
+| -------- | ----- |
+| API Class | `000000` |
+| API Index | `0000` |
+| Data Length | 1 Byte |
+| TX Direction | Robot -> Device |
+
+| Data | Start Bit | Data length | Description |
+| ---- | --------- | ------- | ----------- |
+| `Time` | 0 | 1 Byte | The provided `Time` value will have the device identify itself for `Time * 50`ms. (0ms through 12.75s) |
+
+
+
+
+
+

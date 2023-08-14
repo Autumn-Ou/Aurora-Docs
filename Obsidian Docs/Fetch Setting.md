@@ -1,0 +1,12 @@
+Causes the device to respond with a series of [[Report Setting]] messages going through the [[Settings Registry]].
+
+| Property | Value |
+| -------- | ----- |
+| API Class | `000000` |
+| API Index | `0003` |
+| Data Length | 1 Byte |
+| TX Direction | Robot -> Device |
+
+| Data | Start Bit | Data Length | Description |
+| ---- | --------- | ------- | ----------- |
+| `N/A` | 0 | 1 Byte | The data is zero-ed out, reserved for future applications. |
