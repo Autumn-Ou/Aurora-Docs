@@ -8,7 +8,7 @@ const config: DocsThemeConfig = {
     link: "https://github.com/JeMoRobo/Aurora-Lib",
   },
   chat: {
-    link: "https://discord.gg/ADegEnxDhk",
+    link: "https://discord.gg/h8PEn2hE5h",
   },
   docsRepositoryBase: "https://github.com/JeMoRobo/Aurora-Docs/tree/main",
   footer: {
@@ -17,7 +17,6 @@ const config: DocsThemeConfig = {
   head: function useHead() {
     const { title } = useConfig();
     const { route } = useRouter();
-    // TODO swap to vercel link after deployment
     const socialCard =
       route === "/" || !title
         ? "https://aurora-docs.vercel.app//api/og?Aurora=${Aurora Docs}"
